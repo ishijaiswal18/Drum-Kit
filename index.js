@@ -8,7 +8,7 @@ buttons.forEach(function (element) {
     var buttonInnerHTML = this.innerHTML;
     makeSound(buttonInnerHTML);
     buttonAnimation(buttonInnerHTML);
-  });d
+  });
 });
 
 document.addEventListener('keydown', function (event) {
